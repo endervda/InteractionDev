@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientation Game</title>
+    <link rel="shortcut icon" href="NDRLogoWhite.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/deviceorientation.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="NDRLogoWhite.svg" alt="" id="logo"></a>
+        <div class="navItems">
+            <a href="speech_recognition.html" class="navItem2">SPEECH RECOGNITION</a>
+            <a href="body_tracking.html" class="navItem3">BODY TRACKING</a>
+            <a href="image_classifier.html" class="navItem3">IMAGE CLASSIFIER</a>
+            <a href="contact.html" class="navItem4">CONTACT</a>
+        </div>
+    </nav>
+    <div id="score">Score: 0</div>
+    <canvas id="gameCanvas"></canvas>
+    <button id="restartButton" onclick="restartGame()">Restart</button>
+    <script src="scripts/scriptOrientation.js"></script>
+</body>
+</html>

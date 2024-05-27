@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech Recognition</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/speechrecognition.css" />
+    <link rel="shortcut icon" href="NDRLogoWhite.svg" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img src="NDRLogoWhite.svg" alt="" id="logo" /></a>
+      <div class="navItems">
+        <a href="" class="navItem2"></a>
+        <a href="body_tracking.html" class="navItem3">BODY TRACKING</a>
+        <a href="image_classifier.html" class="navItem3">IMAGE CLASSIFIER</a>
+        <a href="device_orientation.html" class="navItem3">DEVICE ORIENTATION</a>
+        <a href="" class="navItem4">CONTACT</a>
+      </div>
+    </nav>
+    <div class="quiz">
+        <h2>Question 1/7</h2>
+      <h1>Welcome to the Speech Quiz.</h1>
+      <div class="buttons">
+        <button id="startBtn">Start Quiz</button>
+        <button id="speakBtn">Speak</button>
+         <a href="speech_recognition.html"><button id="restartBtn">Play again</button></a>
+      </div>
+      <div id="output"></div>
+    </div>
+    <script src="scripts/scriptSpeech.js"></script>
+  </body>
+</html>

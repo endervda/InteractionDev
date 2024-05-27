@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#logo {
+    margin-left: 32px;
+    width: 161px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: #000000;
+    color: white;
+    box-shadow: black 1px;
+}
+
+.navItems {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.navItems a {
+    margin-right: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.navItems .navItem4 {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 50px;
+}
+
+.quiz {
+    margin-top: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#speakBtn {
+    width: 128px;
+    background-color: #000;
+    color: #FFF;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-weight: bold;
+    display: none;
+} 
+
+#startBtn {
+    width: 128px;
+    background-color: #000;
+    color: #FFF;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+#restartBtn {
+    width: 128px;
+    background-color: #000;
+    color: #FFF;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+h2 {
+    display: none;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000;
+}
+
+

@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#logo {
+    margin-left: 32px;
+    width: 161px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: #000000;
+    color: white;
+    box-shadow: black 1px;
+}
+
+.navItems {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.navItems a {
+    margin-right: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.navItems .navItem4 {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 50px;
+}
+
+#appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#captureButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#uploadButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#uploadedImage {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#video {
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+#captureButton {
+    margin-top: 20px;
+    padding: 10px 14px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#capturedImage {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+}
